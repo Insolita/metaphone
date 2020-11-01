@@ -1,5 +1,6 @@
 # Russian metaphone phonetic algorithm implementation for PHP
 
+![metaphone](https://github.com/Insolita/metaphone/workflows/metaphone/badge.svg)
 port of ruby's https://github.com/pavlo/russian_metaphone
 
 https://en.wikipedia.org/wiki/Metaphone
