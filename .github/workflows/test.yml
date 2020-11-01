@@ -1,9 +1,9 @@
 name: metaphone
 on:
     push:
-        branches: [ master, dev ]
+        branches: [ main, dev ]
     pull_request:
-        branches: [ master ]
+        branches: [ main ]
         paths-ignore:
             - 'docs/**'
             - '*.md'
