@@ -11,7 +11,7 @@ on:
 jobs:
     test:
         if: "!contains(github.event.head_commit.message, 'skip ci') && !contains(github.event.head_commit.message, 'ci skip')"
-        name: unused-scanner (PHP ${{ matrix.php-versions }})
+        name: metaphone (PHP ${{ matrix.php-versions }})
         runs-on: ubuntu-latest
         strategy:
             fail-fast: true
