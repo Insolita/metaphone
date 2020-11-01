@@ -1,0 +1,25 @@
+{
+    "name": "insolita/metaphone",
+    "description": "Metaphone algorithm implementation adopted to russian",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "voku/portable-utf8": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "insolita\\metaphone\\": "./src",
+            "tests\\": "./tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "insolita",
+            "email": "webmaster100500@ya.ru"
+        }
+    ]
+}
